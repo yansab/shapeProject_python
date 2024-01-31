@@ -5,7 +5,7 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                bat 'C:\Users\yaniv\AppData\Local\Programs\Python\Python39\python.exe print.py'
+                bat 'C:\\Users\\yaniv\\AppData\\Local\\Programs\\Python\\Python39\\python.exe print.py'
             }
         }
     }
